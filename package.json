@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/x0n4d0/nlw-repo/issues"
   },
-  "homepage": "https://github.com/x0n4d0/nlw-repo#readme"
+  "homepage": "https://github.com/x0n4d0/nlw-repo#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
 }
