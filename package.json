@@ -1,22 +1,23 @@
 {
   "name": "nlw-repo",
   "version": "1.0.0",
+  "author": "Maurício Romagnoli <x0n4d0>",
+  "license": "MIT",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/x0n4d0/nlw-repo.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "homepage": "https://github.com/x0n4d0/nlw-repo#readme",
+  "repository": "https://github.com/x0n4d0/nlw-repo.git",
   "bugs": {
     "url": "https://github.com/x0n4d0/nlw-repo/issues"
   },
-  "homepage": "https://github.com/x0n4d0/nlw-repo#readme",
+  "keywords": [
+    "Monorepo",
+    "Lerna"
+  ],
+  "scripts": {
+    "dev": "lerna run dev",
+    "dev:server": "lerna run dev --scope=nlw-repo/backend",
+    "test": "lerna run test"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }
