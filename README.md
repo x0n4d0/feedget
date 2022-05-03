@@ -4,12 +4,12 @@
 
 > A widget to facilitate the sending of feedbacks, developed using React.js and TailwindCSS.
 
----
+#
 - [About](#about)
 - [Using](#using)
 - [Techs](#techs)
 - [Credits](#credits)
----
+#
 
 <br>
 
