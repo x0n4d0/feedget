@@ -1,13 +1,13 @@
 {
-  "name": "nlw-repo",
+  "name": "feedget",
   "version": "1.0.0",
   "author": "Maurício Romagnoli <x0n4d0>",
   "license": "MIT",
   "description": "",
-  "homepage": "https://github.com/x0n4d0/nlw-repo#readme",
-  "repository": "https://github.com/x0n4d0/nlw-repo.git",
+  "homepage": "https://github.com/x0n4d0/feedget#readme",
+  "repository": "https://github.com/x0n4d0/feedget.git",
   "bugs": {
-    "url": "https://github.com/x0n4d0/nlw-repo/issues"
+    "url": "https://github.com/x0n4d0/feedget/issues"
   },
   "keywords": [
     "Monorepo",
@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "dev": "lerna run dev",
-    "dev:server": "lerna run dev --scope=nlw-repo/backend",
+    "dev:web": "lerna run dev --scope=feedget-web",
     "test": "lerna run test"
   },
   "devDependencies": {
