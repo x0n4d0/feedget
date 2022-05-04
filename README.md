@@ -46,7 +46,9 @@ npm run dev:web
 - [Lerna](https://github.com/lerna/lerna)
 - [Editorconfig](https://editorconfig.org/)
 
-### Frontend &rarr; `./packages/web`
+### Frontend
+
+&rarr; `./packages/web`
 
 - [React.js](https://reactjs.org/)
   - Start using [Vite.js](https://vitejs.dev/guide/)
