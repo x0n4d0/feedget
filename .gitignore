@@ -38,3 +38,6 @@ yarn.lock
 # Tmp
 tmp/
 tmp.txt
+
+# SQLite
+*.db
