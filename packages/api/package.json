@@ -7,7 +7,8 @@
   "author": "Maurício Romagnoli <x0n4d0>",
   "license": "ISC",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev ./src/server.ts"
   },
   "devDependencies": {
     "@types/node": "^17.0.31",
