@@ -39,6 +39,16 @@ Run website in development mode:
 npm run dev:web
 ```
 
+Prisma - Create Migration
+```bash
+npx prisma migrate dev
+```
+
+Prisma Run Studio
+```bash
+npx prisma studio
+```
+
 ## **Techs**
 
 ### Shared
