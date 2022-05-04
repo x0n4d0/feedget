@@ -8,7 +8,9 @@
 - [About](#about)
 - [Using](#using)
 - [Techs](#techs)
+- [Learned](#learned)
 - [Credits](#credits)
+- [License](#license)
 #
 
 <br>
@@ -19,11 +21,11 @@ For any company, receiving feedback is extremely important to know how to improv
 
 ## **Using**
 
-### Requirements
+### Install Requirements
 
 - Nodejs v16+
 
-### Running
+### Run
 
 Install all dependencies:
 
@@ -39,32 +41,36 @@ npm run dev:web
 
 ## **Techs**
 
-### Shared
+### Shared / Monorepo
 
-- [Lerna]
-- [Editorconfig]
+- [Lerna](https://github.com/lerna/lerna)
+- [Editorconfig](https://editorconfig.org/)
 
-### Frontend - `/packages/web`
+### Frontend &rarr; `./packages/web`
 
-- [React.js] - [Vite.js]
-- [TailwindCSS]
-- [Phosphor-Icons]
-- [HeadlessUI]
+- [React.js](https://reactjs.org/)
+  - Start using [Vite.js](https://vitejs.dev/guide/)
+- [Tailwind CSS](https://tailwindcss.com/)
+  - Plugins: [tailwind-scrollbar](https://www.npmjs.com/package/tailwind-scrollbar)
+  - [postcss](https://github.com/postcss/postcss) and [autoprefixer](https://github.com/postcss/autoprefixer)
+- [Phosphor Icons](https://github.com/phosphor-icons/phosphor-home#phosphor-icons)
+- [Headless UI](https://headlessui.dev/)
+- [HTML 2 Canvas](https://github.com/niklasvh/html2canvas)
+
+## **Learned**
+
+- Develop a Widget
+- Take screenshot with html2canvas
+- Accessibility
+- Loading Component
 
 ## **Credits**
 
-- The version **v1.0.0** of this project was developed at [Next Level Week](https://nextlevelweek.com) event provided by [Rocketseat];
-- The project layout was developed by [Ilana Mallak](https://www.figma.com/@ilanamallak);
+- The version **v1.0.0** of this project was developed at [Next Level Week](https://nextlevelweek.com) event provided by [Rocketseat](https://www.rocketseat.com.br/)
+- The project layout was developed by [Ilana Mallak](https://www.figma.com/@ilanamallak)
 
+## **License**
+
+[MIT](./LICENSE)
 
 </div>
-
-<!-- REFERENCES -->
-[Rocketseat]: https://www.rocketseat.com.br/
-[React.js]: https://reactjs.org/
-[Vite.js]: https://vitejs.dev/guide/
-[TailwindCSS]: https://tailwindcss.com/
-[Phosphor-Icons]: https://github.com/phosphor-icons/phosphor-home#phosphor-icons
-[HeadlessUI]: https://headlessui.dev/
-[Lerna]: https://github.com/lerna/lerna
-[Editorconfig]: https://editorconfig.org/
