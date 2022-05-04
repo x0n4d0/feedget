@@ -55,7 +55,8 @@ npx prisma studio
 
 - [Lerna](https://github.com/lerna/lerna)
 - [Editorconfig](https://editorconfig.org/)
-- [TypeScript]()
+- [TypeScript](https://www.typescriptlang.org/)
+- [Jest](https://jestjs.io/)
 
 ### Frontend
 
