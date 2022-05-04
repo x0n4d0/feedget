@@ -67,6 +67,7 @@ npm run dev:web
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/)
 - [Prisma](https://www.prisma.io/)
+- [SQLite](https://www.sqlite.org/index.html)
 
 
 ## **Learned**
