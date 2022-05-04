@@ -41,10 +41,11 @@ npm run dev:web
 
 ## **Techs**
 
-### Shared / Monorepo
+### Shared
 
 - [Lerna](https://github.com/lerna/lerna)
 - [Editorconfig](https://editorconfig.org/)
+- [TypeScript]()
 
 ### Frontend
 
@@ -58,6 +59,15 @@ npm run dev:web
 - [Phosphor Icons](https://github.com/phosphor-icons/phosphor-home#phosphor-icons)
 - [Headless UI](https://headlessui.dev/)
 - [HTML 2 Canvas](https://github.com/niklasvh/html2canvas)
+
+### Backend
+
+&rarr; `./packages/api`
+
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
+- [Prisma](https://www.prisma.io/)
+
 
 ## **Learned**
 
