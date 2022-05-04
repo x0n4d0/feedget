@@ -80,6 +80,11 @@ npx prisma studio
 - [SQLite](https://www.sqlite.org/index.html)
 - [Nodemailer](https://nodemailer.com/)
 
+## **Tools**
+
+- [Insomnia](https://insomnia.rest/)
+- [Mailtrap](https://mailtrap.io/)
+
 
 ## **Learned**
 
