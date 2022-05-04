@@ -41,3 +41,6 @@ tmp.txt
 
 # SQLite
 *.db
+
+# Test
+coverage
