@@ -80,6 +80,7 @@ npx prisma studio
 - [Prisma](https://www.prisma.io/)
 - [SQLite](https://www.sqlite.org/index.html)
 - [Nodemailer](https://nodemailer.com/)
+- [SWC/Jest](https://swc.rs/docs/usage/jest)
 
 ## **Tools**
 
