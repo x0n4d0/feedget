@@ -78,6 +78,7 @@ npx prisma studio
 - [Express](https://expressjs.com/)
 - [Prisma](https://www.prisma.io/)
 - [SQLite](https://www.sqlite.org/index.html)
+- [Nodemailer](https://nodemailer.com/)
 
 
 ## **Learned**
