@@ -11,6 +11,7 @@
     "dev": "ts-node-dev ./src/server.ts"
   },
   "devDependencies": {
+    "@swc/jest": "^0.2.20",
     "@types/express": "^4.17.13",
     "@types/node": "^17.0.31",
     "jest": "^28.0.3",
