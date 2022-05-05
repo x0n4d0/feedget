@@ -7,8 +7,9 @@
   "author": "Maurício Romagnoli <x0n4d0>",
   "license": "ISC",
   "scripts": {
+    "dev": "ts-node-dev ./src/server.ts",
     "test": "jest",
-    "dev": "ts-node-dev ./src/server.ts"
+    "test:watch": "npm test -- --watchAll"
   },
   "devDependencies": {
     "@swc/jest": "^0.2.20",
