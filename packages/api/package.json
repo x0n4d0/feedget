@@ -7,6 +7,8 @@
   "author": "Maurício Romagnoli <x0n4d0>",
   "license": "ISC",
   "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc -p tsconfig.build.json",
     "dev": "ts-node-dev ./src/server.ts",
     "test": "jest",
     "test:watch": "npm test -- --watchAll"
@@ -20,6 +22,7 @@
     "@types/nodemailer": "^6.4.4",
     "jest": "^28.0.3",
     "prisma": "^3.13.0",
+    "rimraf": "^3.0.2",
     "ts-node": "^10.7.0",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.6.4"
