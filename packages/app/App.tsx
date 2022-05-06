@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import { View } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import { useFonts, Inter_400Regular, Inter_500Medium } from '@expo-google-fonts/inter';
