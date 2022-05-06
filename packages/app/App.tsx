@@ -5,7 +5,7 @@ import { useFonts, Inter_400Regular, Inter_500Medium } from '@expo-google-fonts/
 
 import { theme } from './src/theme';
 
-import { Widget } from './src/components/widget';
+import Widget from './src/components/widget';
 import { StatusBar } from './src/components/status-bar';
 
 export default function App() {
