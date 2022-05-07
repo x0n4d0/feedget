@@ -8,7 +8,8 @@
   "license": "ISC",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "tsc -p tsconfig.build.json",
+    "build": "npx tsc -p tsconfig.build.json",
+    "start": "node dist/server.js",
     "dev": "ts-node-dev ./src/server.ts",
     "test": "jest",
     "test:watch": "npm test -- --watchAll"
