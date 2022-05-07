@@ -5,7 +5,7 @@ import { MailAdapter, SendMailData } from './../mail';
 
 const transport = nodemailer.createTransport({
   host: Env.SMTP_HOST,
-  port: Number(Env.SMTP_PORT),
+  port: Env.SMTP_PORT,
   auth: {
     user: Env.SMTP_USER,
     pass: Env.SMTP_PASSWORD
