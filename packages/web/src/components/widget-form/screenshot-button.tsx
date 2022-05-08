@@ -1,6 +1,7 @@
 import { Camera, Trash } from "phosphor-react";
 import html2canvas from 'html2canvas';
 import { useState } from "react";
+
 import { Loading } from "../loading";
 
 interface ScreenshotButtonProps {

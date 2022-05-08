@@ -1,5 +1,4 @@
 import { CloseButton } from "../../close-button";
-
 import successImageUrl from '../../../assets/success.svg'
 
 interface FeedbackSuccessStepProps {
