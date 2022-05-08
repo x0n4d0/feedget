@@ -1,0 +1,12 @@
+on:
+  issues:
+    types: [opened]
+jobs:
+  create-card:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Card When Issue is Added
+        uses: peter-evans/create-or-update-project-card@v1
+        with:
+          project-name: BOARD
+          column-name: To Do
