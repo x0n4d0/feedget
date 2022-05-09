@@ -65,11 +65,11 @@ This repository was created as 'Monorepo'.
 
 - [Insomnia](https://insomnia.rest/)
 - [Mailtrap](https://mailtrap.io/)
+- [Vercel](https://vercel.com/)
+- [Railway](https://railway.app/)
 
 
 ## **Learned**
-
-
 
 - Develop a Widget
 - Take screenshot with html2canvas
