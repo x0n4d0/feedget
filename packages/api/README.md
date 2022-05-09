@@ -23,7 +23,7 @@ The web project was developed using Node.js and Express.js.
 
 #### Start Development Mode
 ```bash
-npm run dev
+npm run dev:docker
 ```
 
 #### Run tests
@@ -43,7 +43,7 @@ npx prisma migrate dev
 
 #### Prisma Run Studio
 ```bash
-npx prisma studio
+npm run studio
 ```
 
 ## **Techs**

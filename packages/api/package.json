@@ -12,6 +12,7 @@
     "start": "node dist/src/server.js",
     "dev": "ts-node-dev ./src/server.ts",
     "dev:docker": "npm run up && npm run dev",
+    "studio": "npx prisma studio",
     "up": "docker-compose up -d",
     "test": "jest",
     "test:watch": "npm test -- --watchAll"
