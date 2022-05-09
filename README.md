@@ -1,13 +1,16 @@
 <div align='justify'>
 
-![Cover](./cover.png)
+![Cover](./docs/assets/cover.png)
 
 > A widget to facilitate the sending of feedbacks, developed using React.js and TailwindCSS.
+
+➡️ The release **1.0.0** will be available when the **\<FeedGet \/\>** component is published to npm as 'feedget'.
 
 #
 - [About](#about)
 - [Using](#using)
 - [Techs](#techs)
+- [Reposiroty Architecture](#reposiroty-architecture)
 - [Learned](#learned)
 - [Credits](#credits)
 - [License](#license)
@@ -21,66 +24,42 @@ For any company, receiving feedback is extremely important to know how to improv
 
 ## **Using**
 
-### Install Requirements
+### Requirements
 
-- Nodejs v16+
+- [Nodejs](https://nodejs.org/en/download/) - v.16+
+- [Docker](https://docs.docker.com/engine/install/ubuntu/)
 
-### Run
+### CLI
 
-Install all dependencies:
-
+#### Install root and all packages dependencies
 ```bash
-npm i
+npm ci && npm run bootstrap
 ```
 
-Run website in development mode:
+#### Run packages in development mode
 
 ```bash
-npm run dev:web
+npm run dev
 ```
 
-Prisma - Create Migration
-```bash
-npx prisma migrate dev
-```
+## **Reposiroty Architecture**
 
-Prisma Run Studio
-```bash
-npx prisma studio
-```
+This repository was created as 'Monorepo'.
+
+- [`./packages/web`](./packages/web) - The website project.
+- [`./packages/api`](./packages/api) - The api project.
+- [`./packages/app`](./packages/app) - The mobile app project.
 
 ## **Techs**
 
-### Shared
-
-- [Lerna](https://github.com/lerna/lerna)
-- [Editorconfig](https://editorconfig.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Jest](https://jestjs.io/)
-
-### Frontend
-
-&rarr; `./packages/web`
-
-- [React.js](https://reactjs.org/)
-  - Start using [Vite.js](https://vitejs.dev/guide/)
-- [Tailwind CSS](https://tailwindcss.com/)
-  - Plugins: [tailwind-scrollbar](https://www.npmjs.com/package/tailwind-scrollbar)
-  - [postcss](https://github.com/postcss/postcss) and [autoprefixer](https://github.com/postcss/autoprefixer)
-- [Phosphor Icons](https://github.com/phosphor-icons/phosphor-home#phosphor-icons)
-- [Headless UI](https://headlessui.dev/)
-- [HTML 2 Canvas](https://github.com/niklasvh/html2canvas)
-
-### Backend
-
-&rarr; `./packages/api`
-
+- [React.js](https://reactjs.org/) - Start using [Vite](https://vitejs.dev/)
 - [Node.js](https://nodejs.org/en/)
-- [Express](https://expressjs.com/)
-- [Prisma](https://www.prisma.io/)
-- [SQLite](https://www.sqlite.org/index.html)
-- [Nodemailer](https://nodemailer.com/)
-- [SWC/Jest](https://swc.rs/docs/usage/jest)
+- [React Native]() - Start using [Expo](https://expo.dev/)
+- Shared:
+  - [Lerna](https://github.com/lerna/lerna)
+  - [TypeScript](https://www.typescriptlang.org/)
+  - [Editorconfig](https://editorconfig.org/)
+  - [Jest](https://jestjs.io/)
 
 ## **Tools**
 
@@ -90,6 +69,8 @@ npx prisma studio
 
 ## **Learned**
 
+
+
 - Develop a Widget
 - Take screenshot with html2canvas
 - Accessibility
@@ -97,7 +78,7 @@ npx prisma studio
 
 ## **Credits**
 
-- The version **v1.0.0** of this project was developed at [Next Level Week](https://nextlevelweek.com) event provided by [Rocketseat](https://www.rocketseat.com.br/)
+- The version **v0.1.0** of this project was developed at [Next Level Week](https://nextlevelweek.com) event provided by [Rocketseat](https://www.rocketseat.com.br/)
 - The project layout was developed by [Ilana Mallak](https://www.figma.com/@ilanamallak)
 
 ## **License**

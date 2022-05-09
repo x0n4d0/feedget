@@ -14,6 +14,7 @@
     "Lerna"
   ],
   "scripts": {
+    "bootstrap": "lerna exec npm ci",
     "dev": "lerna run dev",
     "dev:web": "lerna run dev --scope=feedget-web",
     "dev:api": "lerna run dev --scope=feedget-api",
