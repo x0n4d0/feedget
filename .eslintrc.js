@@ -40,5 +40,11 @@ module.exports = {
     '@typescript-eslint/return-await': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
     'import/prefer-default-export': 'off',
+    'no-unused-vars': ['error'],
+    '@typescript-eslint/no-unused-vars': ['error'],
+    'import/extensions': 'off',
+    'class-methods-use-this': 'off',
+    'no-useless-constructor': 'off',
+    'no-empty-function': '["error", { "allow": ["constructor"] }]',
   },
 };
