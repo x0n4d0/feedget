@@ -1,5 +1,5 @@
 import { prisma } from '../../prisma';
-import { FeedbackRepository, FeedbackCreate } from './../feedback';
+import { FeedbackRepository, FeedbackCreate } from '../feedback';
 
 export class PrismaFeedbackRepository implements FeedbackRepository {
   async create({ type, comment, screenshot }: FeedbackCreate): Promise<void> {
@@ -7,8 +7,8 @@ export class PrismaFeedbackRepository implements FeedbackRepository {
       data: {
         type,
         comment,
-        screenshot
-      }
+        screenshot,
+      },
     });
   }
 }

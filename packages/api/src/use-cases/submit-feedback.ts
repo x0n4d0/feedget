@@ -1,5 +1,5 @@
-import { MailAdapter } from './../adapters/mail';
-import { FeedbackRepository } from './../repositories/feedback';
+import { MailAdapter } from '../adapters/mail';
+import { FeedbackRepository } from '../repositories/feedback';
 
 type SubmitFeedbackUseCaseRequest = {
   type: string;
@@ -10,7 +10,7 @@ type SubmitFeedbackUseCaseRequest = {
 export class SubmitFeedbackUseCase {
   constructor(
     private feedbackRepository: FeedbackRepository,
-    private mailAdapter: MailAdapter
+    private mailAdapter: MailAdapter,
   ) {}
 
   async execute(request: SubmitFeedbackUseCaseRequest) {
@@ -31,7 +31,7 @@ export class SubmitFeedbackUseCase {
     await this.feedbackRepository.create({
       type,
       comment,
-      screenshot
+      screenshot,
     });
 
     await this.mailAdapter.sendMail({
@@ -41,8 +41,8 @@ export class SubmitFeedbackUseCase {
         `<p>Tipo do feedback: ${type}</p>`,
         `<p>Comentário: ${comment}</p>`,
         screenshot ? `<img src="${screenshot}" />` : '',
-        '</div>'
-      ].join('\n')
+        '</div>',
+      ].join('\n'),
     });
   }
 }
